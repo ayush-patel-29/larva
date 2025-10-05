@@ -1,0 +1,26 @@
+# Core dependencies
+flask==2.3.3
+flask-cors==4.0.0
+python-dotenv==1.0.0
+
+# Neo4j
+neo4j==5.14.1
+
+# AI and embeddings
+sentence-transformers==2.2.2
+chromadb==0.4.15
+requests==2.32.3
+groq==0.5.0
+# Pin httpx to a version compatible with groq's client usage of proxies
+httpx==0.26.0
+
+# Data processing
+numpy==1.24.3
+pandas==2.0.3
+
+# Optional: Jupyter for building knowledge graph
+jupyter==1.0.0
+ipykernel==6.25.2
+
+# Optional: AI services
+# (groq already pinned above)
